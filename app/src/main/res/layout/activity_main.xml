@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.think.myapplication.MySurfaceView
+        android:id="@+id/mySurfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:id="@+id/TurnLeft"
+        android:background="@drawable/left_select"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+         />
+
+
+    <Button
+        android:id="@+id/ForWard"
+        android:background="@drawable/front_select"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        />
+
+
+    <Button
+        android:id="@+id/TurnRight"
+        android:background="@drawable/right_select"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+         />
+
+
+    <Button
+        android:background="@drawable/back_select"
+        android:id="@+id/BackWard"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        />
+
+
+
+    <Button
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/Button1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="吸尘" />
+
+
+    <Button
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/Button6"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="关闭" />
+    <Button
+        android:background="#1afa29"
+        android:id="@+id/clean"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="打扫" />
+    <Button
+        android:background="#1afa29"
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="120dp"
+        android:text="停止" />
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/add_speed_select"
+        android:layout_alignParentRight="true"
+        android:id="@+id/add_speed"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginRight="10dp"
+        android:id="@+id/slow_speed"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/slow_speed_select"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:textColor="#1296db"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/speed_text"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
